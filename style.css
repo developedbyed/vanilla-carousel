@@ -1,0 +1,28 @@
+
+.carousel-container{
+    border: 5px solid black;
+    width: 20%;
+    margin: auto;
+    overflow: hidden;
+}
+.carousel-container img{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-slide{
+    display: flex;
+    
+    
+}
+button{
+    padding: 15px 30px;
+    background-color: cadetblue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(71, 115, 117);
+}
