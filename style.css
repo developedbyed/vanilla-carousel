@@ -1,9 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.title{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .carousel-container{
-    border: 5px solid black;
-    width: 20%;
+    width: 60%;
     margin: auto;
     overflow: hidden;
+    position: relative;
 }
 .carousel-slide img{
     height: 100%;
@@ -13,17 +25,25 @@
 .carousel-slide{
     display: flex;
     width: 100%;
-    height: 200px;
-    
+    height: 500px;
 }
-button{
-    padding: 15px 30px;
-    background-color: cadetblue;
-    border: none;
+#previousBtn{
+   position: absolute;
+   top: 50%;
+   z-index: 10;
+    left: 5%;
+    font-size: 30px;
     color: white;
-    border-radius: 5px;
+    opacity: 0.5;
     cursor: pointer;
 }
-button:hover{
-    background-color: rgb(71, 115, 117);
+#nextBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
 }

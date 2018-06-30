@@ -4,24 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
     <title>Vanilla Carousel</title>
 </head>
 <body>
-    <div class="carousel-section">
+
+    <div class="title">
+        <h1>Vanilla Javascript Carousel</h1>
+    </div>
+
     <div class="carousel-container">
+            <i class="fas fa-arrow-left" id="previousBtn"></i>
+            <i class="fas fa-arrow-right" id="nextBtn"></i>
         <div class="carousel-slide">
+        <img src="./img/carousel5.jpg" id="lastClone" alt="">
         <img src="./img/carousel1.jpeg" alt="">
         <img src="./img/carousel2.jpeg" alt="">
         <img src="./img/carousel3.jpeg" alt="">
         <img src="./img/carousel4.jpeg" alt="">
         <img src="./img/carousel5.jpg" alt="">
+        <img src="./img/carousel1.jpeg" id="firstClone" alt="">
     </div>
-    </div>
-    <button id="previousBtn">Previous</button>
-    <button id="nextBtn">Next</button>
-    <label for="">Remove Overflow</label>
-    <input type="checkbox" id="overflow-box">
 </div>
     <script src="./app.js"></script>
 </body>
